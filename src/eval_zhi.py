@@ -9,7 +9,6 @@ from ragas.metrics import (
     context_recall,
     context_precision,
 )
-# import zhipu_model as zp
 import langchain_community.chat_models.zhipuai as zp
 from ragas.testset.generator import TestsetGenerator
 from zhipu_embeddings import ZhipuEmbeddings
