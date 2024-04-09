@@ -41,4 +41,5 @@ result = evaluate(
     ],
     raise_exceptions=False
 )
-print(result.scores)
+result = result.to_pandas()
+print(result)
