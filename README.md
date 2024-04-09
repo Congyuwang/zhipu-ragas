@@ -35,6 +35,7 @@ pip install -e .
 cd ../community
 pip install -e .
 cd ../../..
+pip install PyJWT
 ```
 
 - install other dependencies
